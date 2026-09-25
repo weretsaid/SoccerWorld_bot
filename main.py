@@ -24,9 +24,9 @@ from aiogram.types import (
 # BOT
 # ============================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8937928562:AAFJbi2whcLY2y5moXgUot_REFSTCzsg_XI")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8937928562:AAF3XL0-apZ8vVWO6SAynVzbPtfdHf2MYsA")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "-1003920866207").strip()
-TRANSFER_CHANNEL_ID = os.getenv("TRANSFER_CHANNEL_ID", "").strip()
+TRANSFER_CHANNEL_ID = os.getenv("TRANSFER_CHANNEL_ID", "-1004311047488").strip()
 
 BASE_DIR = Path(__file__).resolve().parent
 
